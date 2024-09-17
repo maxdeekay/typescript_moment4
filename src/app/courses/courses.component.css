@@ -21,6 +21,8 @@ th {
     padding: 5px;
 }
 
+th:hover { cursor: pointer; }
+
 th:last-child { text-align: right; }
 
 td:first-child, th:first-child {
