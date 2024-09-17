@@ -11,3 +11,5 @@ Syftet med denna uppgift är att:
 Denna applikation hämtar information om kurser från en webbtjänst och presenterar den på skärmen i form av en tabell. Datan hämtas i en Angular service och implementerar den med ett interface.
 
 Applikationen erbjuder funktionalitet som att söka efter en kurskod, kursnamn eller progression samt klicka på någon av tabellrubrikerna för att sortera i bokstavsordning.
+
+Applikationen finns publicerad för testkörning på denna [länk](https://typescript-moment4-maas2305.netlify.app/courses).
