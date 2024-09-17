@@ -12,4 +12,4 @@ Denna applikation hämtar information om kurser från en webbtjänst och present
 
 Applikationen erbjuder funktionalitet som att söka efter en kurskod, kursnamn eller progression samt klicka på någon av tabellrubrikerna för att sortera i bokstavsordning.
 
-Applikationen finns publicerad för testkörning på denna [länk](https://typescript-moment4-maas2305.netlify.app/courses).
+Applikationen finns publicerad för testkörning på denna [länk](https://typescript-moment4-maas2305.netlify.app).
