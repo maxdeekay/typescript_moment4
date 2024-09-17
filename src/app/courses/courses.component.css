@@ -1,0 +1,50 @@
+#container {
+    width: 600px;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    padding: 20px;
+}
+
+th {
+    text-align: left;
+    background-color: grey;
+    padding: 5px;
+}
+
+th:last-child { text-align: right; }
+
+td:first-child, th:first-child {
+    font-weight: bold;
+    width: 90px;
+}
+
+td:last-child {
+    width: 20px;
+    text-align: center;
+}
+
+td { padding: 10px 0 0 5px; }
+
+input {
+    height: 30px;
+    width: 250px;
+    align-self: center;
+    font-size: 24px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label { align-self: center; font-weight: bold; font-size: 26px; }

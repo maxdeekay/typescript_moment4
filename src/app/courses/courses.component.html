@@ -1,0 +1,18 @@
+<h2>Ramschema</h2>
+
+<div id="container">
+    <label for="filter">SÖK</label>
+    <input id="filter" type="text" [(ngModel)]="filterValue" (input)="applyFilter()">
+    <table>
+        <tr>
+            <th (click)="sortData('code')">Kurskod</th>
+            <th (click)="sortData('coursename')">Kursnamn</th>
+            <th (click)="sortData('progression')">Progression</th>
+        </tr>
+        <tr *ngFor="let course of filteredCourselist">
+            <td>{{ course.code }}</td>
+            <td>{{ course.coursename }}</td>
+            <td>{{ course.progression }}</td>
+        </tr>
+    </table>
+</div>
